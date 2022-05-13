@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+*{
+	margin-top: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+}
+.gradient{
+	height: 100vh;
+	background-image: linear-gradient(#ffff00, #ffb200,#ff6000) ;
+}
+.pic img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 50%;
+	height: 40%;	
+}
+
+p{
+	color: white;
+	font-size: 14px;
+	font-family: 'Space Mono';
+} 
+.fly-info{
+  	color: white;
+	text-align: center;
+	font-family: 'Space Mono';
+  	text-align: center;
+  	font-size: 14px;
+  	letter-spacing: 13px;
+  	margin: 10%;
+  	font-weight: bold;
+	
+}
+
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+	align-items: center;
+	position: relative;
+	overflow: auto;
+}
+
+
+
+
+
+.item2{
+	grid-column-start: 1;
+ 	grid-column-end: 4;
+	color: white;
+	font-family: 'Space Mono';
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 12px;
+	height: 350px;
+}
+
+.item2 img{
+	max-width: 320px;
+	height: 190px;
+	position: absolute;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+p#location{
+	font-size: 14px;
+	position: relative;
+	float: left;
+	padding-top: 10px;
+}
+
+#date, #MyClockDisplay, #location{
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-top: -10%;
+}
+
+article#weather{
+	font-size: 80px;
+	position: relative;
+
+}
+
+p#description{
+	font-size: 13px;
+	position: relative;
+}
+
+img#cloudImg{
+	width: 150px;
+	height: 150px;
+	position: relative;
+}
+
+
+ 
+.mapboxgl-popup {
+max-width: 200px;
+}
+
+
+#popup, #title{
+	font-family: 'Space Mono';
+	font-size: 12px;
+	color: black;
+}
+
+#marker {
+	background-image: url('AMCS.jpeg');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#marker2{
+	background-image: url('AFHS.jpeg');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#marker3{
+	background-image: url('VGM.jpeg');
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+.item3{
+	grid-column-start: 1;
+ 	grid-column-end: 4;
+ 	text-align: center;
+	font-family: 'Space Mono';
+	background-color: #ff6000;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 12px;
+	color: white;
+}
+
+#map {
+  height: 50vh;
+  width: 85vw;
+  margin:auto;
+}
+
+
+
